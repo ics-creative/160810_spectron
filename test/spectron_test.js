@@ -18,7 +18,6 @@ const app = new Application({
   args: [appPath]
 });
 
-
 // Promiseを使用して、非同期処理を実行している。
 app.start().then(function () {
   // ウィンドウの表示状態を取得する
